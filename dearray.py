@@ -57,9 +57,9 @@ class TMADearray():
 
 if __name__ == "__main__":
 
-	slide_path = Path("C:/Users/chris/one-drive-beatson/OneDrive - University of Glasgow/projects/events/qupath-workshop-2024/sample-images/bl-tissue-microarray.svs")
+	slide_path = Path("/path/to/bl-tissue-microarray.svs")
 
-	tma_json = Path("bl-tissue-microarray.geojson")
+	tma_json = Path("/path/to/geojson/bl-tissue-microarray.geojson")
 
 	output_folder = Path("cores")
 	output_folder.mkdir(exist_ok=True)

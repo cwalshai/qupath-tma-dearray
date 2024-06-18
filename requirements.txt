@@ -1,0 +1,5 @@
+tifffile
+pillow
+numpy
+shapely
+tqdm
